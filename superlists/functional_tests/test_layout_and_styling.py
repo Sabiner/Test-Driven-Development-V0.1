@@ -10,7 +10,7 @@ class LayoutAndStylingTest(FunctionalTest):
         self.browser.set_window_size(1024, 768)
 
         # 她会看到输入框完美的居中显示
-        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox = self.get_item_input_box()
         ## 通过一定数学计算，判断输入框是否位于正中，指定结果在正负五像素范围内都可以接受
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
@@ -23,7 +23,7 @@ class LayoutAndStylingTest(FunctionalTest):
 
         # 她新建了一个清单，看到输入框仍完美的居中显示
         inputbox.send_keys('testing\n')
-        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox = self.get_item_input_box()
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
