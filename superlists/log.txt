@@ -1,0 +1,46 @@
+Wed, 15 Feb 2017 09:31:09 base.py[line:152] WARNING Not Found: /favicon.ico
+Wed, 15 Feb 2017 09:49:44 exception.py[line:124] ERROR Internal Server Error: /admin/lists/item/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1543, in changelist_view
+    self.list_max_show_all, self.list_editable, self,
+  File "C:\Python27\lib\site-packages\django\contrib\admin\views\main.py", line 44, in __init__
+    self.root_queryset = model_admin.get_queryset(request)
+  File "D:\Projects\Test-Driven-Development-V0.1\superlists\lists\admin.py", line 16, in get_queryset
+    return super(ListAdmin, self).get_queryset(request)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+Wed, 15 Feb 2017 11:33:02 base.py[line:152] WARNING Not Found: /favicon.ico
+Wed, 15 Feb 2017 11:34:04 exception.py[line:124] ERROR Internal Server Error: /lists/3/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\Test-Driven-Development-V0.1\superlists\lists\views.py", line 15, in view_list
+    list_ = List.objects.get(id=list_id)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: List matching query does not exist.
