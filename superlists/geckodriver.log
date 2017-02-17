@@ -1,6 +1,6 @@
-1487044078037	geckodriver	INFO	Listening on 127.0.0.1:55180
-1487044080029	mozprofile::profile	INFO	Using profile path C:\Users\user\AppData\Local\Temp\rust_mozprofile.hr2HkNwLuPwu
-1487044080032	geckodriver::marionette	INFO	Starting browser D:\Tools\firefox46\firefox.exe
-1487044080040	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55187
-1487044080620	Marionette	INFO	Listening on port 55187
-JavaScript error: , line 0: StaleElementReferenceError: The element reference is stale. Either the element is no longer attached to the DOM or the page has been refreshed.
+1487139200025	geckodriver	INFO	Listening on 127.0.0.1:54888
+1487139202017	mozprofile::profile	INFO	Using profile path C:\Users\user\AppData\Local\Temp\rust_mozprofile.9EGAIajOv7Bf
+1487139202021	geckodriver::marionette	INFO	Starting browser D:\Tools\firefox46\firefox.exe
+1487139202029	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54894
+1487139202584	Marionette	INFO	Listening on port 54894
+JavaScript error: resource://gre/components/SanityTest.js, line 65: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]

@@ -44,3 +44,139 @@ Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\django\db\models\query.py", line 385, in get
     self.model._meta.object_name
 DoesNotExist: List matching query does not exist.
+Wed, 15 Feb 2017 14:13:14 base.py[line:152] WARNING Not Found: /favicon.ico
+Wed, 15 Feb 2017 14:13:14 base.py[line:152] WARNING Not Found: /favicon.ico
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element {"using": "css selector", "sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "value": "[id=\"id_text\"]"}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element/23ebb353-24d8-4827-be99-04bb89122315/value {"sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "id": "23ebb353-24d8-4827-be99-04bb89122315", "value": ["B", "u", "y", " ", "w", "e", "l", "l", "i", "e", "s"]}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element/23ebb353-24d8-4827-be99-04bb89122315/value {"sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "id": "23ebb353-24d8-4827-be99-04bb89122315", "value": ["\ue007"]}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element {"using": "css selector", "sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "value": "[id=\"id_list_table\"]"}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element/90f98bbb-7608-4245-8b70-0d6b17067e14/elements {"using": "css selector", "sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "id": "90f98bbb-7608-4245-8b70-0d6b17067e14", "value": "tr"}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element/cf42150f-bad7-4ac5-b980-9b63ba9e0451/text {"sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "id": "cf42150f-bad7-4ac5-b980-9b63ba9e0451"}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element {"using": "css selector", "sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "value": "[id=\"id_text\"]"}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element/17af2b5a-ceab-4c07-bc5a-3e61ef4788c9/value {"sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "id": "17af2b5a-ceab-4c07-bc5a-3e61ef4788c9", "value": ["B", "u", "y", " ", "w", "e", "l", "l", "i", "e", "s"]}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element/17af2b5a-ceab-4c07-bc5a-3e61ef4788c9/value {"sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "id": "17af2b5a-ceab-4c07-bc5a-3e61ef4788c9", "value": ["\ue007"]}
+Wed, 15 Feb 2017 14:13:14 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:14 exception.py[line:124] ERROR Internal Server Error: /lists/1/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\Test-Driven-Development-V0.1\superlists\lists\views.py", line 20, in view_list
+    form.save(for_list=list_)
+  File "D:\Projects\Test-Driven-Development-V0.1\superlists\lists\forms.py", line 25, in save
+    return super(ItemForm, self).save()
+  File "C:\Python27\lib\site-packages\django\forms\models.py", line 448, in save
+    self.instance.save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 1043, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: UNIQUE constraint failed: lists_item.list_id, lists_item.text
+Wed, 15 Feb 2017 14:13:16 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0/element {"using": "css selector", "sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0", "value": "[id=\"id_list_table\"]"}
+Wed, 15 Feb 2017 14:13:19 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:19 remote_connection.py[line:422] DEBUG DELETE http://127.0.0.1:54842/session/50ae822d-c9b0-4677-91c1-4e0740b7aad0 {"sessionId": "50ae822d-c9b0-4677-91c1-4e0740b7aad0"}
+Wed, 15 Feb 2017 14:13:19 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:22 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session {"requiredCapabilities": {}, "desiredCapabilities": {"platform": "ANY", "browserName": "firefox", "version": "", "marionette": true, "javascriptEnabled": true}}
+Wed, 15 Feb 2017 14:13:23 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:23 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/timeouts {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "type": "implicit", "ms": 3000.0}
+Wed, 15 Feb 2017 14:13:23 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:23 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/url {"url": "http://localhost:8081", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60"}
+Wed, 15 Feb 2017 14:13:24 base.py[line:152] WARNING Not Found: /favicon.ico
+Wed, 15 Feb 2017 14:13:24 base.py[line:152] WARNING Not Found: /favicon.ico
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_text\"]"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/9e505f57-eb57-4bb3-9e30-f5ff324c5843/value {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "9e505f57-eb57-4bb3-9e30-f5ff324c5843", "value": [" "]}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_text\"]"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/9e505f57-eb57-4bb3-9e30-f5ff324c5843/value {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "9e505f57-eb57-4bb3-9e30-f5ff324c5843", "value": ["\ue007"]}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": ".has-error"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/4824967f-5fb9-472d-a368-d0a43e47f91d/text {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "4824967f-5fb9-472d-a368-d0a43e47f91d"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_text\"]"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/dcb5acd9-1cb0-4912-bd8b-3f43c18a85da/value {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "dcb5acd9-1cb0-4912-bd8b-3f43c18a85da", "value": ["B", "u", "y", " ", "m", "i", "l", "k"]}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/dcb5acd9-1cb0-4912-bd8b-3f43c18a85da/value {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "dcb5acd9-1cb0-4912-bd8b-3f43c18a85da", "value": ["\ue007"]}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_list_table\"]"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/de2b8557-ae3f-46f0-b934-6016ed2b3bfe/elements {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "de2b8557-ae3f-46f0-b934-6016ed2b3bfe", "value": "tr"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/c58ce649-c286-445f-9396-7be667c2d869/text {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "c58ce649-c286-445f-9396-7be667c2d869"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_text\"]"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/6d41825e-772e-4154-b3d4-5cebca2905c4/value {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "6d41825e-772e-4154-b3d4-5cebca2905c4", "value": [" "]}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_text\"]"}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/6d41825e-772e-4154-b3d4-5cebca2905c4/value {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "6d41825e-772e-4154-b3d4-5cebca2905c4", "value": ["\ue007"]}
+Wed, 15 Feb 2017 14:13:24 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_list_table\"]"}
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/ba9ed057-9599-4e85-a3cf-c15488249b83/elements {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "ba9ed057-9599-4e85-a3cf-c15488249b83", "value": "tr"}
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/8bffa655-aacd-4966-9e4c-c347bf056fdb/text {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "8bffa655-aacd-4966-9e4c-c347bf056fdb"}
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": ".has-error"}
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/889c0633-5c13-4a81-8745-c27ff7b60da9/text {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "889c0633-5c13-4a81-8745-c27ff7b60da9"}
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_text\"]"}
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/e2383d79-d258-4709-8f33-dcbdec4b3806/value {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "e2383d79-d258-4709-8f33-dcbdec4b3806", "value": ["M", "a", "k", "e", " ", "t", "e", "a"]}
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/e2383d79-d258-4709-8f33-dcbdec4b3806/value {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "e2383d79-d258-4709-8f33-dcbdec4b3806", "value": ["\ue007"]}
+Wed, 15 Feb 2017 14:13:26 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_list_table\"]"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/8701e1d4-175e-40d3-b6ba-7aab26f683b7/elements {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "8701e1d4-175e-40d3-b6ba-7aab26f683b7", "value": "tr"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/bbf58c7a-3ada-4fd6-a652-fc1385224299/text {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "bbf58c7a-3ada-4fd6-a652-fc1385224299"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/2bae8fc2-80ba-45d0-8bdc-685ae487e523/text {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "2bae8fc2-80ba-45d0-8bdc-685ae487e523"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "value": "[id=\"id_list_table\"]"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG POST http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/8701e1d4-175e-40d3-b6ba-7aab26f683b7/elements {"using": "css selector", "sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "8701e1d4-175e-40d3-b6ba-7aab26f683b7", "value": "tr"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/bbf58c7a-3ada-4fd6-a652-fc1385224299/text {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "bbf58c7a-3ada-4fd6-a652-fc1385224299"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG GET http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60/element/2bae8fc2-80ba-45d0-8bdc-685ae487e523/text {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60", "id": "2bae8fc2-80ba-45d0-8bdc-685ae487e523"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:422] DEBUG DELETE http://127.0.0.1:54888/session/57f0e9fc-8b3a-4a88-92d1-557d8b153f60 {"sessionId": "57f0e9fc-8b3a-4a88-92d1-557d8b153f60"}
+Wed, 15 Feb 2017 14:13:28 remote_connection.py[line:517] DEBUG Finished Request
